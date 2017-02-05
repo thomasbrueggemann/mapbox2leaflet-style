@@ -1,0 +1,26 @@
+{
+  "name": "mapbox-gl-2-leaflet-path-style",
+  "version": "1.0.0",
+  "description": "Translate Mapbox GL JSON Styles into Leaflet L.Path styles",
+  "main": "translate.js",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasbrueggemann/mapbox-gl-2-leaflet-path-style.git"
+  },
+  "author": "Thomas Brüggemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasbrueggemann/mapbox-gl-2-leaflet-path-style/issues"
+  },
+  "homepage": "https://github.com/thomasbrueggemann/mapbox-gl-2-leaflet-path-style#readme",
+  "bin": {
+    "m2l": "cli.js"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
