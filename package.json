@@ -21,6 +21,7 @@
     "m2l": "cli.js"
   },
   "dependencies": {
+    "hsl-to-hex": "^1.0.0",
     "request": "^2.79.0"
   }
 }
